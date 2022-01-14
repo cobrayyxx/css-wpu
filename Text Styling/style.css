@@ -1,0 +1,43 @@
+/* text styling berkaitan dengan atribut dalam */
+h1{
+    font-size: 50px;
+    color: navy;
+}
+#colour{
+    color: orangered;
+}
+#code-hex{
+    color: #34ebae;
+}
+#rgb{
+    color:rgb(180, 36, 209);
+}
+#justify{
+    text-align: justify;
+    letter-spacing: 10px;
+}
+#left{
+    text-align: left;
+    word-spacing:10px;
+}
+#right{
+    text-align: right;
+}
+#center{
+    text-align: center;
+}
+#indent{
+    text-indent:100px;
+}
+#decoration{
+    text-decoration: line-through;
+}
+#lower{
+    text-transform:lowercase;
+}
+#upper{
+    text-transform: uppercase;
+}
+#capitalize{
+    text-transform: capitalize;
+}

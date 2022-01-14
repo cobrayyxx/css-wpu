@@ -1,0 +1,4 @@
+/* untuk elemen a yang ada di li dan yang ada di ul */
+ul li a{
+    color: gold;
+}

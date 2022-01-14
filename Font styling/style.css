@@ -1,0 +1,22 @@
+/* CSS membedakan antara font dan text, dimana font ada type phrasenya kalau css adalah
+property pendukung font(kyk warna, dll) */
+h1{
+    /* jadi dianyari arial dulu di OS nya, kalo gk ada ke Helvetica, kalo gk ada lagi
+    baru ke sans-serif */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font size(ukuran jadi lebih gede) ada px, %, dan em */
+    font-size : 100px;
+     /* font-weight biar jadi bold fontnya */
+    font-weight: normal;
+    /* Small-caps, semua huruf jadi caps. Huruf paling awal kata akan paling besar */
+    font-variant: small-caps;
+    /* fon-style buat ngubah tulisan jadi italic */
+    /* kalo misalnya font tersebut gk punya format italic, maka sistem akan memaksa miringin tulisan  
+    tersebut sekian derajat(oblique) */
+    font-style: italic;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 50px;
+   
+}

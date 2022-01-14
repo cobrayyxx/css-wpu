@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensi & Flow</title>
+    <style>
+        div {
+            height: 200px;
+            width: 100%;
+            background-color: cadetblue;
+        }
+
+        .satu {
+            height: 200px;
+            width: 500px;
+            background-color: pink;
+        }
+
+        .dua {
+            width: 80%;
+            height: 100px;
+            background-color: coral;
+        }
+
+        .tiga {
+            width: 200px;
+            height: 100px;
+        }
+        .visible{
+            width: 200px;
+            height: 100px;
+            overflow: visible;
+        }
+        .auto{
+            width: 200px;
+            height: 100px;
+            overflow: auto;
+        }
+        .hidden{
+            width: 200px;
+            height: 100px;
+            overflow: hidden;
+        }
+        .scroll{
+            width: 200px;
+            height: 100px;
+            overflow: scroll;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div>Hello World</div>
+
+    <div class="satu">
+        <div class="dua">Hello Parent</div>
+    </div>
+    <div class="tiga">cek nih keluar,
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, provident reiciendis animi aliquid
+        maxime id! Iure accusamus illo dolorem aliquam quas. Adipisci tempora sequi porro eligendi doloribus error nemo
+        enim.
+    </div>
+    <h1>Overflow</h1>
+    <h4>visible</h4>
+    <div class="visible">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur natus harum nisi! Sit omnis quod harum
+        necessitatibus saepe natus similique mollitia cumque! Eum voluptatum quod soluta libero ullam eos minus!
+    </div>
+    <h4>auto</h4>
+    <div class="auto">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reprehenderit quasi explicabo adipisci, aliquam,
+        quibusdam aperiam debitis pariatur eaque beatae ipsum eum ad. Ab veritatis laudantium dolores quidem sequi
+        possimus.
+    </div>
+    <h4>hidden</h4>
+    <div class="hidden">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis voluptate dicta nesciunt voluptates ipsum
+        consequuntur sed. Unde sequi id nisi dolore, aliquid necessitatibus voluptas ipsam explicabo dignissimos!
+        Pariatur, laborum placeat!
+    </div>
+    <h4>Scroll</h4>
+    <div class="scroll">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores dignissimos minus dicta repellat, odio
+        atque dolore, a, sit quas hic neque ipsum officia nisi doloribus possimus nobis reiciendis quia. Quam!
+    </div>
+
+
+</body>
+
+</html>
